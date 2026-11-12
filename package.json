@@ -1,0 +1,21 @@
+{
+  "name": "wemovies-qa",
+  "version": "1.0.0",
+  "description": "Testes E2E do WeMovies com Playwright e TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test",
+    "report": "playwright show-report",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
